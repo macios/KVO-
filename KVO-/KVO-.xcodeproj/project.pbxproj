@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56D1711120D9F7520084CDE1 /* RootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D1710F20D9F7520084CDE1 /* RootVC.m */; };
+		56D1711220D9F7520084CDE1 /* RootVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56D1711020D9F7520084CDE1 /* RootVC.xib */; };
+		56D1711720D9F84F0084CDE1 /* KVOVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D1711520D9F84F0084CDE1 /* KVOVC.m */; };
+		56D1711820D9F84F0084CDE1 /* KVOVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56D1711620D9F84F0084CDE1 /* KVOVC.xib */; };
+		56D1711B20D9F8D70084CDE1 /* PerSon.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D1711A20D9F8D70084CDE1 /* PerSon.m */; };
+		56D1712020DA00E10084CDE1 /* DelegateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D1711E20DA00E10084CDE1 /* DelegateVC.m */; };
+		56D1712120DA00E10084CDE1 /* DelegateVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56D1711F20DA00E10084CDE1 /* DelegateVC.xib */; };
+		56D1712A20DA0AD50084CDE1 /* BaoMu.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D1712920DA0AD50084CDE1 /* BaoMu.m */; };
+		56D1712D20DA0B5E0084CDE1 /* Mother.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D1712C20DA0B5E0084CDE1 /* Mother.m */; };
+		56D1713420DA0FBA0084CDE1 /* DleNextVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D1713220DA0FBA0084CDE1 /* DleNextVC.m */; };
+		56D1713520DA0FBA0084CDE1 /* DleNextVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56D1713320DA0FBA0084CDE1 /* DleNextVC.xib */; };
 		56F3D5A520D93C06006E6ECD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F3D5A420D93C06006E6ECD /* AppDelegate.m */; };
-		56F3D5A820D93C06006E6ECD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F3D5A720D93C06006E6ECD /* ViewController.m */; };
 		56F3D5AB20D93C06006E6ECD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56F3D5A920D93C06006E6ECD /* Main.storyboard */; };
 		56F3D5AD20D93C0B006E6ECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F3D5AC20D93C0B006E6ECD /* Assets.xcassets */; };
 		56F3D5B020D93C0B006E6ECD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56F3D5AE20D93C0B006E6ECD /* LaunchScreen.storyboard */; };
@@ -35,11 +45,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56D1710E20D9F7520084CDE1 /* RootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootVC.h; sourceTree = "<group>"; };
+		56D1710F20D9F7520084CDE1 /* RootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootVC.m; sourceTree = "<group>"; };
+		56D1711020D9F7520084CDE1 /* RootVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootVC.xib; sourceTree = "<group>"; };
+		56D1711420D9F84F0084CDE1 /* KVOVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOVC.h; sourceTree = "<group>"; };
+		56D1711520D9F84F0084CDE1 /* KVOVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOVC.m; sourceTree = "<group>"; };
+		56D1711620D9F84F0084CDE1 /* KVOVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KVOVC.xib; sourceTree = "<group>"; };
+		56D1711920D9F8D70084CDE1 /* PerSon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerSon.h; sourceTree = "<group>"; };
+		56D1711A20D9F8D70084CDE1 /* PerSon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerSon.m; sourceTree = "<group>"; };
+		56D1711D20DA00E10084CDE1 /* DelegateVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelegateVC.h; sourceTree = "<group>"; };
+		56D1711E20DA00E10084CDE1 /* DelegateVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateVC.m; sourceTree = "<group>"; };
+		56D1711F20DA00E10084CDE1 /* DelegateVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DelegateVC.xib; sourceTree = "<group>"; };
+		56D1712820DA0AD50084CDE1 /* BaoMu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaoMu.h; sourceTree = "<group>"; };
+		56D1712920DA0AD50084CDE1 /* BaoMu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaoMu.m; sourceTree = "<group>"; };
+		56D1712B20DA0B5E0084CDE1 /* Mother.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mother.h; sourceTree = "<group>"; };
+		56D1712C20DA0B5E0084CDE1 /* Mother.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mother.m; sourceTree = "<group>"; };
+		56D1713120DA0FBA0084CDE1 /* DleNextVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DleNextVC.h; sourceTree = "<group>"; };
+		56D1713220DA0FBA0084CDE1 /* DleNextVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DleNextVC.m; sourceTree = "<group>"; };
+		56D1713320DA0FBA0084CDE1 /* DleNextVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DleNextVC.xib; sourceTree = "<group>"; };
 		56F3D5A020D93C06006E6ECD /* KVO-.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KVO-.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56F3D5A320D93C06006E6ECD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		56F3D5A420D93C06006E6ECD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		56F3D5A620D93C06006E6ECD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		56F3D5A720D93C06006E6ECD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		56F3D5AA20D93C06006E6ECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56F3D5AC20D93C0B006E6ECD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56F3D5AF20D93C0B006E6ECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,6 +104,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56D1711320D9F8360084CDE1 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				56D1711420D9F84F0084CDE1 /* KVOVC.h */,
+				56D1711520D9F84F0084CDE1 /* KVOVC.m */,
+				56D1711620D9F84F0084CDE1 /* KVOVC.xib */,
+				56D1711920D9F8D70084CDE1 /* PerSon.h */,
+				56D1711A20D9F8D70084CDE1 /* PerSon.m */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
+		56D1711C20DA00BB0084CDE1 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				56D1711D20DA00E10084CDE1 /* DelegateVC.h */,
+				56D1711E20DA00E10084CDE1 /* DelegateVC.m */,
+				56D1711F20DA00E10084CDE1 /* DelegateVC.xib */,
+				56D1712820DA0AD50084CDE1 /* BaoMu.h */,
+				56D1712920DA0AD50084CDE1 /* BaoMu.m */,
+				56D1712B20DA0B5E0084CDE1 /* Mother.h */,
+				56D1712C20DA0B5E0084CDE1 /* Mother.m */,
+				56D1713120DA0FBA0084CDE1 /* DleNextVC.h */,
+				56D1713220DA0FBA0084CDE1 /* DleNextVC.m */,
+				56D1713320DA0FBA0084CDE1 /* DleNextVC.xib */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
 		56F3D59720D93C06006E6ECD = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +156,13 @@
 		56F3D5A220D93C06006E6ECD /* KVO- */ = {
 			isa = PBXGroup;
 			children = (
+				56D1711C20DA00BB0084CDE1 /* Delegate */,
+				56D1711320D9F8360084CDE1 /* KVO */,
 				56F3D5A320D93C06006E6ECD /* AppDelegate.h */,
 				56F3D5A420D93C06006E6ECD /* AppDelegate.m */,
-				56F3D5A620D93C06006E6ECD /* ViewController.h */,
-				56F3D5A720D93C06006E6ECD /* ViewController.m */,
+				56D1710E20D9F7520084CDE1 /* RootVC.h */,
+				56D1710F20D9F7520084CDE1 /* RootVC.m */,
+				56D1711020D9F7520084CDE1 /* RootVC.xib */,
 				56F3D5A920D93C06006E6ECD /* Main.storyboard */,
 				56F3D5AC20D93C0B006E6ECD /* Assets.xcassets */,
 				56F3D5AE20D93C0B006E6ECD /* LaunchScreen.storyboard */,
@@ -235,9 +293,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56D1711220D9F7520084CDE1 /* RootVC.xib in Resources */,
 				56F3D5B020D93C0B006E6ECD /* LaunchScreen.storyboard in Resources */,
 				56F3D5AD20D93C0B006E6ECD /* Assets.xcassets in Resources */,
+				56D1713520DA0FBA0084CDE1 /* DleNextVC.xib in Resources */,
+				56D1712120DA00E10084CDE1 /* DelegateVC.xib in Resources */,
 				56F3D5AB20D93C06006E6ECD /* Main.storyboard in Resources */,
+				56D1711820D9F84F0084CDE1 /* KVOVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +324,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56F3D5A820D93C06006E6ECD /* ViewController.m in Sources */,
+				56D1712A20DA0AD50084CDE1 /* BaoMu.m in Sources */,
+				56D1713420DA0FBA0084CDE1 /* DleNextVC.m in Sources */,
+				56D1711120D9F7520084CDE1 /* RootVC.m in Sources */,
+				56D1712D20DA0B5E0084CDE1 /* Mother.m in Sources */,
+				56D1712020DA00E10084CDE1 /* DelegateVC.m in Sources */,
+				56D1711720D9F84F0084CDE1 /* KVOVC.m in Sources */,
+				56D1711B20D9F8D70084CDE1 /* PerSon.m in Sources */,
 				56F3D5B320D93C0B006E6ECD /* main.m in Sources */,
 				56F3D5A520D93C06006E6ECD /* AppDelegate.m in Sources */,
 			);

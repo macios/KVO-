@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  KVOVC.h
 //  KVO-
 //
-//  Created by ac hu on 2018/6/19.
+//  Created by ac hu on 2018/6/20.
 //  Copyright © 2018年 ac hu. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface KVOVC : UIViewController
 
 @end
-
