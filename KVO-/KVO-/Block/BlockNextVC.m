@@ -1,38 +1,28 @@
 //
-//  RootVC.m
+//  BlockNextVC.m
 //  KVO-
 //
 //  Created by ac hu on 2018/6/20.
 //  Copyright © 2018年 ac hu. All rights reserved.
 //
 
-#import "RootVC.h"
-#import "KVOVC.h"
-#import "DelegateVC.h"
-#import "BlockVC.h"
-#import "NotifyVC.h"
+#import "BlockNextVC.h"
 
-@interface RootVC ()
+@interface BlockNextVC ()
 
 @end
 
-@implementation RootVC
+@implementation BlockNextVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
-- (IBAction)KVOClick:(UIButton *)sender {
-    [self.navigationController pushViewController:[KVOVC new] animated:YES];
-}
-- (IBAction)delegateClick:(UIButton *)sender {
-     [self.navigationController pushViewController:[DelegateVC new] animated:YES];
-}
-- (IBAction)blockClick:(UIButton *)sender {
-    [self.navigationController pushViewController:[BlockVC new] animated:YES];
-}
-- (IBAction)notifyClick:(UIButton *)sender {
-    [self.navigationController pushViewController:[NotifyVC new] animated:YES];
+
+- (IBAction)sendStr:(UIButton *)sender {
+    if (self.blcok) {
+        self.blcok(@"放假");
+    }
 }
 
 - (void)didReceiveMemoryWarning {

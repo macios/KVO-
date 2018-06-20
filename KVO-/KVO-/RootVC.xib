@@ -38,12 +38,30 @@
                         <action selector="delegateClick:" destination="-1" eventType="touchUpInside" id="z1n-xr-hHE"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcA-0s-jLp">
+                    <rect key="frame" x="53" y="186" width="38" height="30"/>
+                    <state key="normal" title="Block"/>
+                    <connections>
+                        <action selector="blockClick:" destination="-1" eventType="touchUpInside" id="68p-1h-nQQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ul-p8-gDI">
+                    <rect key="frame" x="51" y="233" width="42" height="30"/>
+                    <state key="normal" title="Notify"/>
+                    <connections>
+                        <action selector="notifyClick:" destination="-1" eventType="touchUpInside" id="Goe-1S-gP3"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="nFx-EJ-X77" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="49" id="3xO-mV-axi"/>
+                <constraint firstItem="2Ul-p8-gDI" firstAttribute="centerX" secondItem="bcA-0s-jLp" secondAttribute="centerX" id="AQg-ZX-elT"/>
                 <constraint firstItem="HNB-2A-Y0j" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="42" id="Bg3-ec-2d3"/>
                 <constraint firstItem="nFx-EJ-X77" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="50" id="FMZ-X0-TTE"/>
+                <constraint firstItem="bcA-0s-jLp" firstAttribute="top" secondItem="HNB-2A-Y0j" secondAttribute="bottom" constant="28" id="M88-yz-qOf"/>
+                <constraint firstItem="bcA-0s-jLp" firstAttribute="centerX" secondItem="HNB-2A-Y0j" secondAttribute="centerX" id="OWk-Go-Is4"/>
+                <constraint firstItem="2Ul-p8-gDI" firstAttribute="top" secondItem="bcA-0s-jLp" secondAttribute="bottom" constant="17" id="aBm-B2-RtV"/>
                 <constraint firstItem="HNB-2A-Y0j" firstAttribute="top" secondItem="nFx-EJ-X77" secondAttribute="bottom" constant="29" id="b3Y-Y7-oyc"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
