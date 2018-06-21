@@ -21,6 +21,9 @@
     //系统使用观察者方法
     [_p addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionNew context:nil];
     _p.name = @"小明";
+    
+    //观察可变数组时需要
+//    [self mutableArrayValueForKey:@"allPhotoArr"];
 }
 
 -(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context{
